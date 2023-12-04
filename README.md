@@ -20,7 +20,7 @@ PlaneVade is your passport to a world of thrilling challenges, cool music, and a
 - **Entertaining Challenges:** Face a variety of challenges that will test your piloting skills and keep you on the edge of your seat.
 - **Cool Music:** Groove to the beats of our awesome in-game music that adds an extra layer of excitement to your gaming experience.
 - **Fun UI:** The user interface is designed to be intuitive and visually appealing, making navigation a breeze.
-- **Version 1.0.0:** PlaneVade is currently in version 1.0.0 and is ready to take off!
+- **Version 5.0.0:** PlaneVade is currently in version 5.0.0 and is ready to take off!
 
 ## Current Version
 
@@ -28,11 +28,23 @@ PlaneVade is your passport to a world of thrilling challenges, cool music, and a
 
 PlaneVade is currently soaring through the skies in its first version. Get ready to experience the thrill of the game as it is, and stay tuned for exciting updates!
 
+Dynamic Crates: Brace yourself for a whole new dimension of gameplay! Crates will now fall from the sky, introducing an element of surprise and strategy. Some contain power-ups to enhance your abilities, while others may bring unexpected challenges. Will you seize the opportunity or conquer adversity?
+
+UI Overhaul: We've given the user interface a fresh new look, ensuring a sleek and intuitive experience. Navigating through menus and options is now more seamless than ever, providing you with quick access to all the game has to offer.
+
+Revamped Controls: Your journey through the game is now even more responsive and dynamic. We've fine-tuned the controls to provide a smoother and more immersive gaming experience. Mastering your movements has never felt this satisfying!
+
+Updated Game Assets: Immerse yourself in a visually stunning world with updated game assets. From backgrounds to characters, every visual element has been carefully crafted to enhance your visual experience.
+
+Enhanced Sound Effects: The soundscape of [Your App] has been amplified! Enjoy a more immersive auditory experience with enhanced sound effects that bring every action to life. Feel the adrenaline rush as you navigate through the challenges.
+
+Game Mechanics Tweaks: We've made subtle yet impactful adjustments to the game mechanics, ensuring a balanced and engaging experience. Discover new strategies and adapt to the ever-evolving challenges that await you.
+
 ## Upcoming Features
 
-We're not stopping at version 1.0.0! PlaneVade is under active development for version 2, and here's a sneak peek at what's to come:
+We're not stopping at version 5.0.0! PlaneVade is under active development for version 6, and here's a sneak peek at what's to come:
 
-- **Inspired by Airstrike 1945:** Version 2 will bring gameplay features inspired by the classic Airstrike 1945 game, taking your gaming experience to new heights.
+- **Inspired by Airstrike 1945:** Version 6 will bring gameplay features inspired by the classic Airstrike 1945 game, taking your gaming experience to new heights.
 - **More Challenges:** Brace yourself for even more challenging levels and enemies.
 - **Enhanced Graphics:** We're upgrading the visuals to make the game even more visually stunning.
 - **New Soundtracks:** Expect more cool tunes to keep your adrenaline pumping.
@@ -43,7 +55,7 @@ Stay tuned for these exciting additions and improvements!
 
 To embark on this epic adventure, make sure your device meets the following minimum requirements:
 
-- **Android 9 (Pie) or higher:** PlaneVade is compatible with devices running Android 9 and above.
+- **Android 5/5.1 or higher:** PlaneVade is compatible with devices running Android 9 and above.
 - **A Sense of Adventure:** Most importantly, bring your sense of adventure and a competitive spirit!
 
 ## Get Ready to Play
