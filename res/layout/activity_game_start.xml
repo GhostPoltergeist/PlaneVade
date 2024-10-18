@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/cloud_rf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/game_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/snow" />
+
+        <ImageView
+            android:id="@+id/missile"
+            android:background="@drawable/missile_fr"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/to_move"/>
+
+        <ImageView
+            android:id="@+id/randomCrate"
+            android:background="@drawable/shootspeed"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/to_move"/>
+
+        <ImageView
+            android:id="@+id/secondCrate"
+            android:background="@drawable/createcrossbrown"
+            android:visibility="gone"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/to_move"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:textSize="35sp"
+            android:textColor="@color/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/_0"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/broken_console"
+            android:layout_marginStart="60dp"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:textColor="#0b6623"
+            android:id="@+id/crateDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/allerta"/>
+
+        <ImageView
+            android:id="@+id/character"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="171sp"
+            android:layout_marginTop="600dp"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/jetplane"
+            android:contentDescription="@string/to_move" />
+
+        <ImageView
+            android:id="@+id/Shotbullet"
+            android:background="@drawable/bullet_rf"
+            android:visibility="gone"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/to_move"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/btnShoot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shoot"
+            android:layout_weight="1"
+            android:fontFamily="@font/broken_console"
+            android:layout_marginStart="3dp"
+            android:backgroundTint="@color/green"/>
+
+    </LinearLayout>
+
+</LinearLayout>

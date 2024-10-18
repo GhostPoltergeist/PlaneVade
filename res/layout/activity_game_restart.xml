@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/forest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameOver.GameRestart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/broken_console"
+            android:text="@string/game_over"
+            android:textColor="#7FFF00"
+            android:textSize="50sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="6"
+            android:shadowDy="15"
+            android:shadowRadius="5" />
+
+        <TextView
+            android:id="@+id/highScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/broken_console"
+            android:layout_below="@+id/textView"
+            android:text="@string/_bestpoinbts"
+            android:textColor="#feca40"
+            android:textSize="45sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="6"
+            android:shadowDy="15"
+            android:shadowRadius="5"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/broken_console"
+            android:layout_below="@+id/highScore"
+            android:text="@string/points"
+            android:textColor="#E40911"
+            android:textSize="40sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="6"
+            android:shadowDy="15"
+            android:shadowRadius="5"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#fccb06"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/broken_console"
+            android:textSize="25sp"
+            android:textColor="#F1F1F1"
+            android:text="Main-menu"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</LinearLayout>
