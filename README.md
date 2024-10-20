@@ -24,7 +24,7 @@ PlaneVade is your passport to a world of thrilling challenges, cool music, and a
 
 ## Current Version
 
-![Version](https://img.shields.io/badge/Version-5.0.0-brightgreen)
+![Version](https://img.shields.io/badge/Version-6.3.5-brightgreen)
 
 PlaneVade is currently soaring through the skies in its first version. Get ready to experience the thrill of the game as it is, and stay tuned for exciting updates!
 
